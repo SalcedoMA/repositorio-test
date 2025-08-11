@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "icon": "/icons/drops.svg",
+      "docs": 245,
+      "title": "Hidrología Superficial",
+      "description": "Estudios de cuencas, caudales y recursos hídricos superficiales"
+    },
+    {
+      "id": 2,
+      "icon": "/icons/cloud.svg",
+      "docs": 189,
+      "title": "Meteorología Aplicada",
+      "description": "Análisis climático, pronósticos y variabilidad meteorológica"
+    },
+    {
+      "id": 3,
+      "icon": "/icons/thermometer.svg",
+      "docs": 156,
+      "title": "Climatología",
+      "description": "Estudios de cambio climático y tendencias a largo plazo"
+    },
+    {
+      "id": 4,
+      "icon": "/icons/chart.svg",
+      "docs": 98,
+      "title": "Instrumentación",
+      "description": "Desarrollo y calibración de equipos de medición"
+    }
+  ]

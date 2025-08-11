@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "icon": "/icons//doc.svg",
+      "title": "Análisis de la variabilidad pluviométrica en la cuenca del río Magdalena durante el período 2010-2023",
+      "author": "Dr. María González, Ing. Carlos Rodríguez, MSc. Ana Martínez",
+      "date": "14 de enero de 2024",
+      "type": "Artículo de Investigación",
+      "downloads": 234,
+      "views": 1205
+    },
+    {
+      "id": 2,
+      "icon": "/icons/doc.svg",
+      "title": "Implementación de redes de sensores IoT para monitoreo hidrológico en tiempo real",
+      "author": "PhD. Roberto Silva, Ing. Laura Pérez",
+      "date": "11 de enero de 2024",
+      "type": "Tesis Doctoral",
+      "downloads": 156,
+      "views": 892
+    },
+    {
+      "id": 3,
+      "icon": "/icons/doc.svg",
+      "title": "Modelación hidrodinámica de inundaciones urbanas utilizando técnicas de machine learning",
+      "author": "MSc. Diego Herrera, Dr. Patricia López, Ing. Juan Morales",
+      "date": "9 de enero de 2024",
+      "type": "Proyecto de Grado",
+      "downloads": 189,
+      "views": 756
+    },
+    {
+      "id": 4,
+      "icon": "/icons/doc.svg",
+      "title": "Evaluación del impacto del fenómeno El Niño en los patrones de precipitación regional",
+      "author": "Dr. Fernando Castro, MSc. Claudia Ramírez",
+      "date": "7 de enero de 2024",
+      "type": "Informe Técnico",
+      "downloads": 298,
+      "views": 1456
+    }
+  ]

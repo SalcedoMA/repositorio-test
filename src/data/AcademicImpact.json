@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "icon": "/icons/book.svg",
+      "number": 1247,
+      "description": "Documentos"
+    },
+    {
+      "id": 2,
+      "icon": "/icons/people.svg",
+      "number": 456,
+      "description": "Investigadores"
+    },
+    {
+      "id": 3,
+      "icon": "/icons/download.svg",
+      "number": 23891,
+      "description": "Descargas"
+    },
+    {
+      "id": 4,
+      "icon": "/icons/arrow-rise.svg",
+      "number": "89%",
+      "description": "Crecimiento anual"
+    }
+  ]
