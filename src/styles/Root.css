@@ -1,0 +1,156 @@
+:root {
+    /* --main-color: #376092; */
+    --main-color: #2563EB;
+    /* --main-filter: invert(36%) sepia(14%) saturate(1702%) hue-rotate(173deg) brightness(95%) contrast(99%); */
+    --main-filter: invert(27%) sepia(84%) saturate(1827%) hue-rotate(210deg) brightness(99%) contrast(96%);
+}
+
+header {
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    filter: var(--main-filter);
+}
+
+.logo, .hidromet-logo {
+    max-height: 4rem;
+    margin: 0.2rem;
+}
+
+.logo-text {
+    font-size: 0.85rem;
+}
+
+nav, nav * {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin-left: 3rem;
+}
+
+li {
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+
+li:hover, li:hover a {
+     color: #1378FD;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.separator {
+    background-color: var(--main-color);
+    height: 0.35rem;
+    outline: none;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0F172A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    gap: 1.5rem;
+}
+
+.references {
+    display: flex;
+    border-bottom: 1px solid #1e2638;
+    padding-bottom: 2rem;
+}
+
+.summary-title {
+    display: flex;
+    align-items: center;
+
+}
+
+.summary-logo {
+    /* filter: invert(100%) sepia(26%) saturate(66%) hue-rotate(298deg) b       rightness(103%) contrast(101%); */
+    filter: invert(65%) sepia(30%) saturate(189%) hue-rotate(175deg) brightness(93%) contrast(96%);
+}
+
+.summary-logo {
+    max-height: 4rem;
+    margin: 0.2rem;
+}
+
+.summary-text {
+    font-size: 0.85rem;
+}
+
+.summary-text p {
+    color: #7e8fa7;
+}
+
+.summary-description {
+    max-width: 75ch;
+    color: #7e8fa7;
+}
+
+.links {
+    display: flex;
+    gap: 10rem;
+}
+
+.links div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* align-items: flex-start; */
+}
+
+.links div h2 {
+    font-size: 1rem;
+}
+
+.links div ul {
+    align-self: self-end;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    /* padding-left: 0.5rem; */
+}
+
+.links div ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.links div ul li a {
+    text-decoration: none;
+    color: #7e8fa7;
+}
+
+.copyright p {
+    color: #7e8fa7;
+}

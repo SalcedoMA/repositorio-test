@@ -1,0 +1,52 @@
+/* SEARCH */
+.repository-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.repository-search h1 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: rgb(54, 54, 54);
+}
+
+.search-elements {
+    display: flex;
+    gap: 1rem;
+}
+
+.search-elements input {
+    height: 3rem;
+    width: 35rem;
+    border-radius: 0.4rem;
+    /* outline: none; */
+    border: 1px solid lightgrey;
+    padding:  0 0.75rem;
+    font-size: 1rem;
+}
+
+.search-elements input:focus {
+    border: 2px solid var(--main-color);
+    outline: none;
+}
+
+.search-elements button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    width: 10rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: rgb(19, 120, 253);
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.search-elements button:active {
+    background-color: var(--main-color);
+}
+

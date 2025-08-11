@@ -1,0 +1,39 @@
+.academic-impact h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.academic-impact p {
+    font-size: 1.35rem;
+    color: rgb(245, 245, 245);
+}
+
+.academic-achievements {
+    display: flex;
+    gap: 10rem;
+}
+
+.achievement-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-container {
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.achievement-icon {
+    height: 3rem;
+}
+
+.achievement-card h2 {
+    font-size: 2.5rem;
+}
+
+.achievement-card p {
+    font-size: 1.15rem;
+}
