@@ -1,0 +1,122 @@
+.main-information {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 70%;
+    margin: 0 10rem;
+}
+
+.top-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.top-info h1 {
+    color: var(--main-color);
+    font-size: 2.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-info p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 75ch;
+}
+
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.card-title {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.card-title span{
+    font-size: 1.25em;
+    color: var(--main-color);
+}
+
+.card {
+    height: 22rem;
+    box-shadow: 2px 2px 5px rgb(204, 204, 204);
+    padding: 2.5rem 1.5rem;
+    background-color: rgb(247, 247, 247);
+    border-left: 2px solid rgb(219, 205, 192);
+}
+
+.card-info {
+    max-width: 75ch;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+/* QUOTE */
+
+.quote-form {
+    width: 100%;
+    padding: 3rem 20%;
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.quote-form h1 {
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-names {
+    display: flex;
+    gap: 1.75rem;
+}
+
+.form-names section {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    min-width: max-content;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    /* max-height: 2rem; */
+    height: 3rem;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    box-shadow: inset -1px -1px 1px #AEC3EE;
+}
+.required::after {
+    content: " *";
+    /* color: rgb(110, 0, 0); */
+}
+.home-form-submit {
+    background-color: #AEC3EE;
+    color: #2E62B1;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+button:hover {
+    background-color: #45a049;
+}
