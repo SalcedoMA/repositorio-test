@@ -40,15 +40,6 @@ export default function Home() {
           <div className="contributions-container">
             <ContributionBoxes></ContributionBoxes>
           </div>
-          <div className="contributions-pages">
-            <button type="button" className="fwd-bck-buttons">←</button>
-            <button type="button" className="page-number-button">1</button>
-            <button type="button" className="page-number-button">2</button>
-            <button type="button" className="page-number-button">3</button>
-            <p>...</p>
-            <button type="button" className="page-number-button">12</button>
-            <button type="button" className="fwd-bck-buttons">→</button>
-          </div>
         </section>
         <section className="academic-impact">
           <AcademicImpact></AcademicImpact>
