@@ -7,7 +7,7 @@ import {
 import Carousel from "../home/Carousel.jsx"
 import SearchBar from "../home/SearchBar.jsx";
 import CommunityCards from "../home/CommunityCards.jsx";
-import ContributionBoxes from "../home/ContributionBox.jsx";
+import ContributionBoxes from "../home/ContributionBoxes.jsx";
 import AcademicImpact from "../home/AcademicImpact.jsx";
 
 export default function Home() {
