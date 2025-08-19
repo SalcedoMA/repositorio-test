@@ -14,7 +14,7 @@ export default function Root() {
           <Link to={"/"} className="logo-link">
             <img className="logo" src={logo} alt="" />
             <div className="logo-text">
-              <h1>Repositorio H&M</h1>
+              <h1>ALUVION</h1>
               <p>Hidrologia y meteorologia</p>
             </div>
           </Link>
@@ -48,7 +48,7 @@ export default function Root() {
               <div className="summary-title">
                 <img className="summary-logo" src={logo} alt="" />
                 <div className="summary-text">
-                  <h1>Repositorio H&M</h1>
+                  <h1>ALUVION</h1>
                   <p>Hidrologia y meteorologia</p>
                 </div>
               </div>

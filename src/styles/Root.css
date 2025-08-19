@@ -2,7 +2,7 @@
     /* --main-color: #376092; */
     --main-color: #2563EB;
     /* --main-filter: invert(36%) sepia(14%) saturate(1702%) hue-rotate(173deg) brightness(95%) contrast(99%); */
-    --main-filter: invert(27%) sepia(84%) saturate(1827%) hue-rotate(210deg) brightness(99%) contrast(96%);
+    --main-filter: invert(28%) sepia(66%) saturate(3644%) hue-rotate(217deg) brightness(96%) contrast(92%);
 }
 
 header {
@@ -33,6 +33,7 @@ nav {
 
 .logo-text {
     font-size: 0.85rem;
+    color: #2563EB;
 }
 
 nav, nav * {
