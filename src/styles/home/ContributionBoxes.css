@@ -37,6 +37,23 @@
     border-radius: 0.5rem;
     display: flex;
     gap: 1rem;
+    width: min(60rem, 95vw);
+    justify-content: space-between;
+    transition: box-shadow 200ms ease-in-out;
+}
+
+.contribution-box:hover {
+    box-shadow: 0 6px 10px -6px rgb(201, 201, 201);
+}
+
+.contribution-box:hover .contribution-title {
+    color: #2563EB;
+    transition: color 150ms ease-in;
+}
+
+.contribution-main {
+    display: flex;
+    gap: 1rem;
 }
 
 .contribution-icon {
@@ -54,6 +71,10 @@
 
 .contribution-title {
     font-size: 1.25rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 60ch;
+    white-space: nowrap;
 }
 
 .author-and-date {
