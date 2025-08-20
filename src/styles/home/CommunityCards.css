@@ -1,6 +1,10 @@
+.community-link {
+    min-height: max(15rem, max-content);
+}
+
 .community-card {
     display: flex;
-    /* flex: 1; */
+    height: 100%;
     flex-direction: column;
     gap: 1rem;
     text-decoration: none;
@@ -11,11 +15,12 @@
     min-height: 13rem;
     padding: 1.5rem 3rem 1.5rem 1.5rem;
     /* box-shadow: 0px 0px 1px black; */
-    transition: transform 200ms ease-in-out;
+    transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
 }
 
 .community-card:hover {
     transform: translateY(-3px);
+    box-shadow: 0 6px 10px -6px rgb(201, 201, 201);
 }
 
 .card-header {
@@ -25,11 +30,28 @@
 }
 
 .community-icon {
-    background-color: #DBEAFE;
-    border-radius: 0.5rem;
     height: 3.25rem;
     padding: 0.7rem;
 }
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DBEAFE;
+    border-radius: 0.5rem;
+}
+
+.community-card:hover .community-icon {
+    transition: filter 200ms ease-in-out;
+    filter: brightness(0) invert(1);
+}
+
+.community-card:hover .icon-wrapper {
+    background-color: #2563EB;
+    transition: background-color 200ms ease-in-out;
+}
+
 
 .community-docs {
     background-color: #F1F5F9;
@@ -40,6 +62,11 @@
 
 .community-title {
     font-size: 1.3rem;
+}
+
+.community-card:hover .community-title {
+    color: #2563EB;
+    transition: color 200ms ease-in-out;
 }
 
 .community-description {
