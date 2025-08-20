@@ -38,10 +38,10 @@ export default function CommunityCards() {
   return (
     <>
       {communities.map((community) => (
-        <Link key={community.id} to="/">
+        <Link key={community.id} to="/" className='community-link'>
           <div className="community-card">
             <div className="card-header">
-              <img className="community-icon" src={community.icon} alt=""></img>
+              <div className="icon-wrapper"><img className="community-icon" src={community.icon} alt=""></img></div>
               <p className="community-docs">{community.docs} docs</p>
             </div>
             <h1 className="community-title">{community.title}</h1>
