@@ -41,17 +41,19 @@ export default function ContributionBoxes() {
     <>
         {currentItems.map((document) => (
             <div key={document.id} className="contribution-box">
-                <img className="contribution-icon" src={doc} alt="" />
-                <div className="contribution-info">
-                    <h2 className="contribution-title">{document.nombre}</h2>
-                    <div className="author-and-date">
-                        <p className="contribution-author">{document.autor}</p>
-                        <p className="contribution-date">{document.fecha}</p>
-                    </div>
-                    <div className="contribution-details">
-                        <p className="contribution-type">{document.tipo}</p>
-                        <p className="contribution-downloads">{document.downloads}</p>
-                        <p className="contribution-views">{document.views}</p>
+                <div className="contribution-main">
+                    <img className="contribution-icon" src={doc} alt="" />
+                    <div className="contribution-info">
+                        <h2 className="contribution-title">{document.nombre}</h2>
+                        <div className="author-and-date">
+                            <p className="contribution-author">{document.autor}</p>
+                            <p className="contribution-date">{document.fecha}</p>
+                        </div>
+                        <div className="contribution-details">
+                            <p className="contribution-type">{document.tipo}</p>
+                            <p className="contribution-downloads">{document.downloads}</p>
+                            <p className="contribution-views">{document.views}</p>
+                        </div>
                     </div>
                 </div>
                 <div className="contribution-actions">
