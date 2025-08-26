@@ -21,7 +21,7 @@ const Pagination = ({
                     <button
                         key={index}
                         onClick={() => setCurrentPage(page)}
-                        className={page == currentPage ? "page-number-button active" : "page-number-butto"}>
+                        className={page == currentPage ? "page-number-button active" : "page-number-button"}>
                         {page}
                     </button>
                 );
