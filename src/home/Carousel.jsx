@@ -37,11 +37,68 @@ export default function Carousel() {
 
     return (
       <>
-          <div className="carousel-holder">
-            <img className="carousel-image" src={slides[imageIndex]} alt=""></img>
-            <button onClick={showPrevImage} className="carousel-button" style={{left: 0}}><img src={arrowLeft} alt="" /></button>
-            <button onClick={showNextImage} className="carousel-button"  style={{right: 0}}><img src={arrowRight} alt="" /></button>
-          </div>
+          <section 
+            className="carousel-holder"
+            aria-label="Image Slider"
+          >
+            <a href="#after-image-slider-controls" className="skip-link">
+              Skip Image Slider Controls
+            </a>
+            <div
+              style={{
+                width: "100%",
+                height: "100%",
+                display: "flex",
+                overflow: "hidden",
+              }}
+            >
+              {slides.map((url, index) => (
+                <img 
+                  key={url}
+                  src={url}
+                  className="carousel-image"
+                  aria-hidden={imageIndex !== index}
+                  style={{ translate: `${-100 * imageIndex}%` }}
+                />
+              ))}
+            </div>
+            <button 
+              onClick={showPrevImage} 
+              className="carousel-button" 
+              style={{left: 0}}
+              aria-label="View Previous Image"
+            >
+              <img src={arrowLeft} alt="" aria-hidden/>
+            </button>
+            <button onClick={showNextImage} 
+              className="carousel-button"  
+              style={{right: 0}}
+              aria-label="View Next Image"
+            >
+              <img src={arrowRight} alt="" aria-hidden/>
+            </button>
+            <div
+              style={{
+                position: "absolute",
+                bottom: ".5rem",
+                left: "50%",
+                translate: "-50%",
+                display: "flex",
+                gap: ".25rem",
+              }}
+            >
+              {slides.map((_, index) => (
+                <button
+                  key={index}
+                  className={index === imageIndex ? "image-dot active" : "image-dot"}
+                  aria-label={`View Image ${index + 1}`}
+                  onClick={() => setImageIndex(index)}
+                >
+                </button>
+              ))}
+            </div>
+            <div id="after-image-slider-controls" />
+          </section>
       </>
     );
   }
